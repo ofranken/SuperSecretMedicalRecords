@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "installCommand": "cd ../.. && npm ci --workspace @medifyrx/web --workspace @medifyrx/shared --include-workspace-root",
+  "installCommand": "cd ../.. && npm ci --workspace @medifyrx/web --workspace @medifyrx/shared --include-workspace-root --ignore-scripts",
   "buildCommand": "cd ../.. && npm run build --workspace @medifyrx/web",
   "outputDirectory": "dist",
   "headers": [
